@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+   
+   
+    
+}
+
+a {
+    color: black;
+    font-weight: 500;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*This is the styles for the navigation bar*/
+
+.navbar h3 a {
+    font-weight: 900;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    padding: 40px 80px;
+    width: 100%;
+    z-index: 2;
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 2px 2px 25px rgb(178, 178, 178);
+}
+
+.navitems {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;   
+}
+
+.navitems li{
+    margin-left: 100px;
+}
+
+.nav-btn {
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navbar h3 {
+    margin-left: 50px;
+}
+
+/*The end of the navigation bar section*/
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button {
+    border: 0px;
+    cursor: pointer;
+}
+
+.button {
+    margin-left: 30px;
+}
+
+.Right-hero img {
+    width: 400px;
+    border-radius: 50%;  
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin: 90px 120px;
+    gap: 5rem;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+/* Styles for the about section*/
+
+.about-cards {
+    display: grid;
+    align-items: center;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+
+.about-left{
+    width: 80%;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    background-color: blue;
+    position: relative; 
+}
+
+.about-left img {
+    overflow: hidden;
+    transform: rotate(15deg);
+    border-radius: 20px;
+    width: 100%;
+    transition: all 400ms ease;
+}
+
+.about-left img:hover{
+    transform: rotate(0);
+}
+
+#about-p1 {
+    text-align: justify;
+}
+
+.about h3 {
+    text-align: center;
+}
+
+.about-card {
+    background-color: blue;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about-card:hover {
+    background-color: transparent;
+    border: 2px solid blue;
+    transition: all 400ms ease;
+    color: black;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 15%;
+    margin: 20px auto;
+}
+
+.about{
+    margin: 20px auto;
+    width: 80%;
+}
+
+.about-right{
+    text-align: center;
+    align-items: center;
+}
+
+.about-right button{
+    color: black;
+    background-color: transparent;
+    border: 2px solid blue;
+    margin-top: 30px; 
+}
+
+.about-right button:hover{
+    color: #fff;
+    background-color: blue;
+    transition: all 400ms ease; 
+}
+
+.about p {
+    text-align: center;
+}
+
+/*The end of styles for the about section*/
+
+#skills {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.outerbar {
+    width: 100%;
+    height: 8px;
+    border-radius: 20px ;
+    background-color: #80c1ff;
+}
+
+.innerbar1 {
+    width: 90%;
+    height:8px;
+    border-radius: 20px 20px 0px;
+    background-color: blue;
+}
+
+.innerbar2 {
+    width: 75%;
+    height:8px;
+    border-radius: 20px 20px 0px;
+    background-color: blue;
+}
+
+.innerbar3 {
+    width: 60%;
+    height:8px;
+    border-radius: 20px 20px 0px;
+    background-color: blue;
+}
+
+.items {
+    margin: 80px;
+
+}
+.skills-item1>div,.skills-item2>div {
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+#skills {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#skills h3 {
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    gap: 10%;
+}
+
+.innerbar4 {
+    width: 80%;
+    height:8px;
+    border-radius: 20px 20px 0px;
+    background-color: blue;
+}
+
+.innerbar5 {
+    width: 95%;
+    height:8px;
+    border-radius: 20px 20px 0px;
+    background-color: blue;
+}
+
+.innerbar6 {
+    width: 70%;
+    height:8px;
+    border-radius: 20px 20px 0px;
+    background-color: blue;
+}
+
+.skills-item1,.skills-item2 {
+    background-color: white;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid blue;
+}
+
+/*The styles for the project section*/
+
+.project_container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4rem;
+    margin: 20px 70px;
+}
+
+#projects h3 {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.project img {
+    width: 100%;
+    place-items: center;
+    overflow:hidden;
+}
+
+.project {
+    width: 100%;
+    box-shadow: 2px 2px 20px rgb(195, 195, 195);
+    height: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.project>div {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+}
+
+.project h4 {
+    color: blue;
+}
+
+.project img:hover {
+    transform:scale(120%)
+}
+
+/* The styles for the contact section*/
+
+#contact{
+    margin: 80px;
+}
+
+#contact h3 {
+    text-align: center; 
+}
+
+.contact-btn a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-left p {
+    margin-bottom: 20px;
+}
+
+.contact-left, .contact-right {
+    padding-top: 50px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.contact-right {
+    width: 100%;
+}
+
+/*The end of styles for the contact section*/
+
+
+/* The contact form styles*/ 
+
+input, textarea {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input, textarea:focus {
+    outline: none;
+}
+
+/*This is the styles for the footer section*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 5%;
+}
+
+footer {
+    background-color: blue;
+    width: 100%;
+    padding: 20px 80px;
+    height: 200px;
+    bottom: 0;
+    color: white;
+}
+
+footer ul li a {
+    color: white;
+    padding-top: 70px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(216, 210, 210);
+}
+
+footer h3 a {
+    color:  rgb(216, 210, 210);
+}
+
+/*Media Query*/
+@media screen and (max-width:768px){
+    /*The navigation bar query*/
+    .navbar {
+        margin-bottom: 90px;
+        padding: 30px 50px;
+    }
+    .navbar h2 {
+        margin-top: 120px;
+    }
+    .navitems {
+        display: none;
+      
+    }
+
+    /*The hero section query*/
+
+    .hero {
+        display: block;
+        width: 100%;
+        align-items: center;
+        margin: 70px 0;
+        padding:  50px 30px;        
+
+
+    }
+
+    .Left-hero button {
+        align-items: center;
+        margin: 0 5px;
+        text-align: center;
+    }
+
+    .Left-hero {
+        text-align: center;
+        
+    }
+
+    .Left-hero p {
+        text-align: justify;
+        align-items: center;
+    }
+
+    .Right-hero {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .Right-hero img {
+        width: 70%;
+    }
+
+    /* The about section*/
+    .about-content {
+        display: block;
+    }
+
+    .about-left {
+        text-align: center;
+        margin: auto;
+    }
+
+    .about-img img {
+        transform: rotate(0);
+    }
+
+    .about-cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        margin: 0;
+    }
+
+    .about-card {
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .about-cards .about-card h3 {
+        font-size: 12px;
+    }
+
+    .about-card p {
+        font-size: 12px;
+    }
+
+    /* The skills section*/
+    .items {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .skills-item1>div, .skills-item2>div {
+        margin: 30px;
+        width: 80%;
+    }
+
+    #skills h3 {
+        margin-bottom: 40px;
+    }
+
+    /* The project section*/
+
+    .project_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    /* The contact section*/
+    .contact {
+        display: block;
+    }
+    
+}
+
+@media (max-width:1024px) {
+    .navbar {
+        padding: 30px 40px;
+        justify-content: space-around;
+    }
+    .navbar li {
+        margin-left: 50px;
+    }
+    .navbar h3 {
+        margin-left: 0px;
+    }
+  
+    .button {
+        margin-left: 10px;
+    }
+    
+    .about-cards {
+        gap: 1rem;
+    }
+
+  
+    
+}
